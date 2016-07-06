@@ -2,8 +2,7 @@
 qrcode powered by dlang
 
 ## Additional description
-- it just support svg currently.
-- png jpeg will supported in the next time
+- it  support svg png 
 
 ## ldc2编译
 
@@ -22,7 +21,7 @@ qrcode powered by dlang
 	
 	void testQrCode()
 	{
-		import ithox.qrcode.qrcode;
+		import ithox.qrcode;
 	
 		AbstractRenderer plain = new Svg();
 		plain.setWidth(250);
